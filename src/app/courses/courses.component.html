@@ -2,4 +2,9 @@
     <li *ngFor = "let course of courses"  >
         {{course}}
     </li>
+    <button class="btn btn-primary" (click)="onSave($event)">Save</button>
+    <!-- <input [value]="email" type="text" (keyup.enter)="onKeyUp()"> -->
+    <input type="text" [(ngModel)]="email" (keyup.enter)="onKeyUp()" /> <br>
+    <label for=""> {{day | date:'shortDate'}}</label> <br>
+    <label for="">{{title | uppercase}}</label> <br>
 </ul>
