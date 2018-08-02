@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CoursesService } from '../courses.service';
 
+
 @Component({
   selector: 'app-courses',
   templateUrl: './courses.component.html',
@@ -8,7 +9,7 @@ import { CoursesService } from '../courses.service';
 })
 export class CoursesComponent implements OnInit {
   
-  title = "List of courses";
+  title = "asddddddddddddddddddddddddddddadasdasdasdasdllllllllllllllllllasdaskdlaskdlaskdlaskdoekforkgldfgkldfkgldfkgldfkgldfkglkdfglkdflgkdflkgdflkgdf";
   courses;
   email = "oliva@mati.com";
   money = "1200";
