@@ -1,3 +1,4 @@
+import { FormaText } from './formaText.pipe';
 import { SummaryPipe } from './summary.pipe';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -8,13 +9,16 @@ import { CoursesService } from './courses.service';
 import {FormsModule} from '@angular/forms';
 import { FavouriteComponent } from './favourite/favourite.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CapitalComponent } from './capital/capital.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     SummaryPipe,
-    FavouriteComponent
+    FormaText,
+    FavouriteComponent,
+    CapitalComponent
   ],
   imports: [
     BrowserModule,
